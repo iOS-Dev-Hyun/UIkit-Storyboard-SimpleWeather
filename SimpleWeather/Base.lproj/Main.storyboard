@@ -60,7 +60,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <constraints>
                                             <constraint firstItem="Duk-cO-zl3" firstAttribute="centerX" secondItem="tUK-eO-kVo" secondAttribute="centerX" id="7SB-uc-Sld"/>
                                             <constraint firstItem="Duk-cO-zl3" firstAttribute="centerY" secondItem="tUK-eO-kVo" secondAttribute="centerY" id="C1k-0P-GX7"/>
@@ -88,9 +88,6 @@
     </scenes>
     <resources>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
