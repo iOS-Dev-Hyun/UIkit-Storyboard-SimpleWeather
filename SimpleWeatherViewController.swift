@@ -29,7 +29,7 @@ class SimpleWeatherViewController: UIViewController {
         print("도시, 온도, 날씨 변경")
         cityLable.text = cities.randomElement()
         let imageName = weathers.randomElement()!
-        weatherImageVIew.image = UIImage(systemName: imageName)
+        weatherImageVIew.image = UIImage(systemName: imageName)?.withRenderingMode(.alwaysOriginal)
         
         let randomTemp = Int.random(in: 10..<30)
         temperatureLable.text = "\(randomTemp)°"
